@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="metaverse bg.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="metaverse bg0000" x="0" y="0" width="1600" height="818"/>
+	<SubTexture name="metaverse bg0001" x="1610" y="0" width="1600" height="818"/>
+	<SubTexture name="metaverse bg0002" x="3220" y="0" width="1600" height="818"/>
+	<SubTexture name="metaverse bg0003" x="4830" y="0" width="1600" height="818"/>
+	<SubTexture name="metaverse bg0004" x="6440" y="0" width="1600" height="818"/>
+	<SubTexture name="metaverse bg0005" x="0" y="828" width="1600" height="818"/>
+	<SubTexture name="metaverse bg0006" x="1610" y="828" width="1600" height="818"/>
+	<SubTexture name="metaverse bg0007" x="3220" y="828" width="1600" height="818"/>
+	<SubTexture name="metaverse bg0008" x="4830" y="828" width="1600" height="818"/>
+	<SubTexture name="metaverse bg0009" x="6440" y="828" width="1600" height="818"/>
+	<SubTexture name="metaverse bg0010" x="0" y="1656" width="1600" height="818"/>
+	<SubTexture name="metaverse bg0011" x="1610" y="1656" width="1600" height="818"/>
+	<SubTexture name="metaverse bg0012" x="3220" y="1656" width="1600" height="818"/>
+	<SubTexture name="metaverse bg0013" x="4830" y="1656" width="1600" height="818"/>
+	<SubTexture name="metaverse bg0014" x="6440" y="1656" width="1600" height="818"/>
+	<SubTexture name="metaverse bg0015" x="0" y="2484" width="1600" height="818"/>
+	<SubTexture name="metaverse bg0016" x="1610" y="2484" width="1600" height="818"/>
+	<SubTexture name="metaverse bg0017" x="3220" y="2484" width="1600" height="818"/>
+	<SubTexture name="metaverse bg0018" x="4830" y="2484" width="1600" height="818"/>
+	<SubTexture name="metaverse bg0019" x="6440" y="2484" width="1600" height="818"/>
+	<SubTexture name="metaverse bg0020" x="0" y="3312" width="1600" height="818"/>
+	<SubTexture name="metaverse bg0021" x="1610" y="3312" width="1600" height="818"/>
+	<SubTexture name="metaverse bg0022" x="3220" y="3312" width="1600" height="818"/>
+	<SubTexture name="metaverse bg0023" x="4830" y="3312" width="1600" height="818"/>
+	<SubTexture name="metaverse bg0024" x="6440" y="3312" width="1600" height="818"/>
+	<SubTexture name="metaverse bg0025" x="0" y="4140" width="1600" height="818"/>
+	<SubTexture name="metaverse bg0026" x="1610" y="4140" width="1600" height="818"/>
+	<SubTexture name="metaverse bg0027" x="3220" y="4140" width="1600" height="818"/>
+</TextureAtlas>

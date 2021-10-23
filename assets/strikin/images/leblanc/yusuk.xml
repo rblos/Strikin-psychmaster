@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="yusuk.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="yusuke0000" x="0" y="0" width="798" height="798"/>
+	<SubTexture name="yusuke0001" x="0" y="0" width="798" height="798"/>
+	<SubTexture name="yusuke0002" x="798" y="0" width="798" height="798"/>
+	<SubTexture name="yusuke0003" x="798" y="0" width="798" height="798"/>
+	<SubTexture name="yusuke0004" x="798" y="0" width="798" height="798"/>
+	<SubTexture name="yusuke0005" x="798" y="0" width="798" height="798"/>
+	<SubTexture name="yusuke0006" x="798" y="0" width="798" height="798"/>
+	<SubTexture name="yusuke0007" x="798" y="0" width="798" height="798"/>
+	<SubTexture name="yusuke0008" x="0" y="798" width="798" height="798"/>
+	<SubTexture name="yusuke0009" x="0" y="798" width="798" height="798"/>
+	<SubTexture name="yusuke0010" x="798" y="798" width="798" height="798"/>
+	<SubTexture name="yusuke0011" x="798" y="798" width="798" height="798"/>
+	<SubTexture name="yusuke0012" x="798" y="798" width="798" height="798"/>
+	<SubTexture name="yusuke0013" x="798" y="798" width="798" height="798"/>
+	<SubTexture name="yusuke0014" x="798" y="798" width="798" height="798"/>
+	<SubTexture name="yusuke0015" x="798" y="798" width="798" height="798"/>
+</TextureAtlas>

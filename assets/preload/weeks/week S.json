@@ -1,0 +1,70 @@
+{
+	"storyName": "When he sees the five ft. dabuz",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "week6",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"You Are Stronger",
+			"dad",
+			[
+				231,
+				14,
+				45
+			]
+		],
+		[
+			"Daredevil",
+			"spooky",
+			[
+				231,
+				14,
+				45
+			]
+		],
+		[
+			"Awakening",
+			"face",
+			[
+				231,
+				14,
+				45
+			]
+		],
+		[
+			"Will Power",
+			"dad",
+			[
+				231,
+				14,
+				45
+			]
+		],
+		[
+			"What You Wish For",
+			"pico",
+			[
+				231,
+				14,
+				45
+			]
+		],
+		[
+			"Blooming Villain",
+			"tankman",
+			[
+				231,
+				14,
+				45
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Week S"
+}

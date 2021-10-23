@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ryuji.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ryuji0000" x="0" y="0" width="1500" height="1500"/>
+	<SubTexture name="ryuji0001" x="0" y="0" width="1500" height="1500"/>
+	<SubTexture name="ryuji0002" x="1500" y="0" width="1500" height="1500"/>
+	<SubTexture name="ryuji0003" x="1500" y="0" width="1500" height="1500"/>
+	<SubTexture name="ryuji0004" x="1500" y="0" width="1500" height="1500"/>
+	<SubTexture name="ryuji0005" x="1500" y="0" width="1500" height="1500"/>
+	<SubTexture name="ryuji0006" x="1500" y="0" width="1500" height="1500"/>
+	<SubTexture name="ryuji0007" x="1500" y="0" width="1500" height="1500"/>
+	<SubTexture name="ryuji0008" x="0" y="1500" width="1500" height="1500"/>
+	<SubTexture name="ryuji0009" x="0" y="1500" width="1500" height="1500"/>
+	<SubTexture name="ryuji0010" x="1500" y="1500" width="1500" height="1500"/>
+	<SubTexture name="ryuji0011" x="1500" y="1500" width="1500" height="1500"/>
+	<SubTexture name="ryuji0012" x="1500" y="1500" width="1500" height="1500"/>
+	<SubTexture name="ryuji0013" x="1500" y="1500" width="1500" height="1500"/>
+</TextureAtlas>

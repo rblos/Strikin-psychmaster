@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="makoto.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="makoto0000" x="0" y="0" width="1500" height="1500"/>
+	<SubTexture name="makoto0001" x="0" y="0" width="1500" height="1500"/>
+	<SubTexture name="makoto0002" x="1500" y="0" width="1500" height="1500"/>
+	<SubTexture name="makoto0003" x="1500" y="0" width="1500" height="1500"/>
+	<SubTexture name="makoto0004" x="0" y="1500" width="1500" height="1500"/>
+	<SubTexture name="makoto0005" x="0" y="1500" width="1500" height="1500"/>
+	<SubTexture name="makoto0006" x="0" y="1500" width="1500" height="1500"/>
+	<SubTexture name="makoto0007" x="0" y="1500" width="1500" height="1500"/>
+	<SubTexture name="makoto0008" x="1500" y="1500" width="1500" height="1500"/>
+	<SubTexture name="makoto0009" x="1500" y="1500" width="1500" height="1500"/>
+	<SubTexture name="makoto0010" x="1500" y="1500" width="1500" height="1500"/>
+	<SubTexture name="makoto0011" x="1500" y="1500" width="1500" height="1500"/>
+</TextureAtlas>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="personaNOTE_splash.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="splashtest0000" x="0" y="0" width="245" height="231"/>
+	<SubTexture name="splashtest0001" x="255" y="0" width="245" height="231"/>
+	<SubTexture name="splashtest0002" x="0" y="241" width="245" height="231"/>
+	<SubTexture name="splashtest0003" x="0" y="241" width="245" height="231"/>
+	<SubTexture name="splashtest0004" x="255" y="241" width="245" height="231"/>
+</TextureAtlas>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ann.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ann0000" x="0" y="0" width="1500" height="1600"/>
+	<SubTexture name="ann0001" x="0" y="0" width="1500" height="1600"/>
+	<SubTexture name="ann0002" x="1500" y="0" width="1500" height="1600"/>
+	<SubTexture name="ann0003" x="1500" y="0" width="1500" height="1600"/>
+	<SubTexture name="ann0004" x="3000" y="0" width="1500" height="1600"/>
+	<SubTexture name="ann0005" x="3000" y="0" width="1500" height="1600"/>
+	<SubTexture name="ann0006" x="3000" y="0" width="1500" height="1600"/>
+	<SubTexture name="ann0007" x="3000" y="0" width="1500" height="1600"/>
+	<SubTexture name="ann0008" x="4500" y="0" width="1500" height="1600"/>
+	<SubTexture name="ann0009" x="4500" y="0" width="1500" height="1600"/>
+	<SubTexture name="ann0010" x="6000" y="0" width="1500" height="1600"/>
+	<SubTexture name="ann0011" x="6000" y="0" width="1500" height="1600"/>
+	<SubTexture name="ann0012" x="4500" y="0" width="1500" height="1600"/>
+	<SubTexture name="ann0013" x="4500" y="0" width="1500" height="1600"/>
+	<SubTexture name="ann0014" x="4500" y="0" width="1500" height="1600"/>
+	<SubTexture name="ann0015" x="4500" y="0" width="1500" height="1600"/>
+	<SubTexture name="ann0016" x="0" y="1600" width="1500" height="1600"/>
+	<SubTexture name="ann0017" x="0" y="1600" width="1500" height="1600"/>
+	<SubTexture name="ann0018" x="1500" y="1600" width="1500" height="1600"/>
+	<SubTexture name="ann0019" x="1500" y="1600" width="1500" height="1600"/>
+	<SubTexture name="ann0020" x="3000" y="1600" width="1500" height="1600"/>
+	<SubTexture name="ann0021" x="3000" y="1600" width="1500" height="1600"/>
+	<SubTexture name="ann0022" x="3000" y="1600" width="1500" height="1600"/>
+	<SubTexture name="ann0023" x="3000" y="1600" width="1500" height="1600"/>
+	<SubTexture name="ann0024" x="4500" y="0" width="1500" height="1600"/>
+	<SubTexture name="ann0025" x="4500" y="0" width="1500" height="1600"/>
+	<SubTexture name="ann0026" x="6000" y="0" width="1500" height="1600"/>
+	<SubTexture name="ann0027" x="6000" y="0" width="1500" height="1600"/>
+	<SubTexture name="ann0028" x="4500" y="1600" width="1500" height="1600"/>
+	<SubTexture name="ann0029" x="4500" y="1600" width="1500" height="1600"/>
+	<SubTexture name="ann0030" x="4500" y="1600" width="1500" height="1600"/>
+	<SubTexture name="ann0031" x="4500" y="1600" width="1500" height="1600"/>
+</TextureAtlas>

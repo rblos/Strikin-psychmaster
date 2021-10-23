@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bfbox.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bf talk00000" x="0" y="0" width="410" height="415"/>
+	<SubTexture name="bf talk00001" x="0" y="0" width="410" height="415"/>
+	<SubTexture name="bf talk00002" x="410" y="0" width="410" height="415"/>
+	<SubTexture name="bf talk00003" x="410" y="0" width="410" height="415"/>
+	<SubTexture name="bf talk00004" x="820" y="0" width="410" height="415"/>
+	<SubTexture name="bf talk00005" x="820" y="0" width="410" height="415"/>
+	<SubTexture name="bf talk00006" x="1230" y="0" width="410" height="415"/>
+	<SubTexture name="bf talk00007" x="1230" y="0" width="410" height="415"/>
+	<SubTexture name="bf talk00008" x="0" y="415" width="410" height="415"/>
+	<SubTexture name="bf talk00009" x="0" y="415" width="410" height="415"/>
+	<SubTexture name="bf talk00010" x="820" y="0" width="410" height="415"/>
+	<SubTexture name="bf talk00011" x="820" y="0" width="410" height="415"/>
+	<SubTexture name="bf talk00012" x="1230" y="0" width="410" height="415"/>
+	<SubTexture name="bf talk00013" x="1230" y="0" width="410" height="415"/>
+	<SubTexture name="bf talk00014" x="0" y="415" width="410" height="415"/>
+	<SubTexture name="bf talk00015" x="0" y="415" width="410" height="415"/>
+	<SubTexture name="bf talk00016" x="820" y="0" width="410" height="415"/>
+	<SubTexture name="bf talk00017" x="820" y="0" width="410" height="415"/>
+	<SubTexture name="bf talk00018" x="410" y="415" width="410" height="415"/>
+	<SubTexture name="bf talk00019" x="410" y="415" width="410" height="415"/>
+	<SubTexture name="bf talk00020" x="410" y="415" width="410" height="415"/>
+	<SubTexture name="bf talk00021" x="410" y="415" width="410" height="415"/>
+	<SubTexture name="bf talk00022" x="410" y="415" width="410" height="415"/>
+	<SubTexture name="bf talk00023" x="410" y="415" width="410" height="415"/>
+	<SubTexture name="bf talk00024" x="410" y="415" width="410" height="415"/>
+	<SubTexture name="bf talk00025" x="410" y="415" width="410" height="415"/>
+	<SubTexture name="bf talk00026" x="410" y="415" width="410" height="415"/>
+	<SubTexture name="bf talk00027" x="410" y="415" width="410" height="415"/>
+	<SubTexture name="bf talk00028" x="410" y="415" width="410" height="415"/>
+	<SubTexture name="bf talk00029" x="410" y="415" width="410" height="415"/>
+	<SubTexture name="bf talk00030" x="410" y="415" width="410" height="415"/>
+	<SubTexture name="bf talk10000" x="820" y="415" width="375" height="446"/>
+	<SubTexture name="bf talk10001" x="820" y="415" width="375" height="446"/>
+	<SubTexture name="bf talk10002" x="1195" y="415" width="375" height="446"/>
+	<SubTexture name="bf talk10003" x="1195" y="415" width="375" height="446"/>
+	<SubTexture name="bf talk10004" x="1570" y="415" width="375" height="446"/>
+	<SubTexture name="bf talk10005" x="1570" y="415" width="375" height="446"/>
+	<SubTexture name="bf talk10006" x="0" y="861" width="375" height="446"/>
+	<SubTexture name="bf talk10007" x="0" y="861" width="375" height="446"/>
+	<SubTexture name="bf talk10008" x="1195" y="415" width="375" height="446"/>
+	<SubTexture name="bf talk10009" x="1195" y="415" width="375" height="446"/>
+	<SubTexture name="bf talk10010" x="1570" y="415" width="375" height="446"/>
+	<SubTexture name="bf talk10011" x="1570" y="415" width="375" height="446"/>
+	<SubTexture name="bf talk10012" x="0" y="861" width="375" height="446"/>
+	<SubTexture name="bf talk10013" x="0" y="861" width="375" height="446"/>
+	<SubTexture name="bf talk10014" x="1195" y="415" width="375" height="446"/>
+	<SubTexture name="bf talk10015" x="1195" y="415" width="375" height="446"/>
+	<SubTexture name="bf talk10016" x="1570" y="415" width="375" height="446"/>
+	<SubTexture name="bf talk10017" x="1570" y="415" width="375" height="446"/>
+	<SubTexture name="bf talk10018" x="0" y="861" width="375" height="446"/>
+	<SubTexture name="bf talk10019" x="0" y="861" width="375" height="446"/>
+	<SubTexture name="bf talk10020" x="1195" y="415" width="375" height="446"/>
+	<SubTexture name="bf talk10021" x="1195" y="415" width="375" height="446"/>
+	<SubTexture name="bf talk10022" x="1195" y="415" width="375" height="446"/>
+	<SubTexture name="bf talk10023" x="1195" y="415" width="375" height="446"/>
+	<SubTexture name="bf talk10024" x="1195" y="415" width="375" height="446"/>
+	<SubTexture name="bf talk10025" x="1195" y="415" width="375" height="446"/>
+	<SubTexture name="bf talk10026" x="1195" y="415" width="375" height="446"/>
+	<SubTexture name="bf talk10027" x="1195" y="415" width="375" height="446"/>
+	<SubTexture name="bf talk10028" x="1195" y="415" width="375" height="446"/>
+	<SubTexture name="bf talk10029" x="1195" y="415" width="375" height="446"/>
+	<SubTexture name="bf talk10030" x="1195" y="415" width="375" height="446"/>
+</TextureAtlas>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bg_characters.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="background ch0000" x="0" y="0" width="1321" height="752"/>
+	<SubTexture name="background ch0001" x="0" y="0" width="1321" height="752"/>
+	<SubTexture name="background ch0002" x="1331" y="0" width="1321" height="752"/>
+	<SubTexture name="background ch0003" x="1331" y="0" width="1321" height="752"/>
+	<SubTexture name="background ch0004" x="2662" y="0" width="1321" height="752"/>
+	<SubTexture name="background ch0005" x="2662" y="0" width="1321" height="752"/>
+	<SubTexture name="background ch0006" x="0" y="762" width="1321" height="752"/>
+	<SubTexture name="background ch0007" x="0" y="762" width="1321" height="752"/>
+	<SubTexture name="foreground ch0000" x="1331" y="762" width="1532" height="730"/>
+	<SubTexture name="foreground ch0001" x="1331" y="762" width="1532" height="730"/>
+	<SubTexture name="foreground ch0002" x="0" y="1524" width="1532" height="730"/>
+	<SubTexture name="foreground ch0003" x="0" y="1524" width="1532" height="730"/>
+	<SubTexture name="foreground ch0004" x="1542" y="1524" width="1532" height="730"/>
+	<SubTexture name="foreground ch0005" x="1542" y="1524" width="1532" height="730"/>
+	<SubTexture name="foreground ch0006" x="0" y="2264" width="1532" height="730"/>
+	<SubTexture name="foreground ch0007" x="0" y="2264" width="1532" height="730"/>
+</TextureAtlas>

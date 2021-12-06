@@ -1,125 +1,65 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TextureAtlas imagePath="dialoguebox.png">
-	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="dialoguebox0000" x="0" y="0" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0001" x="0" y="0" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0002" x="0" y="0" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0003" x="0" y="0" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0004" x="0" y="0" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0005" x="0" y="0" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0006" x="0" y="0" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0007" x="0" y="0" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0008" x="1920" y="0" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0009" x="1920" y="0" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0010" x="1920" y="0" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0011" x="1920" y="0" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0012" x="3840" y="0" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0013" x="3840" y="0" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0014" x="3840" y="0" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0015" x="3840" y="0" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0016" x="3840" y="0" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0017" x="5760" y="0" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0018" x="5760" y="0" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0019" x="5760" y="0" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0020" x="5760" y="0" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0021" x="5760" y="0" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0022" x="0" y="1080" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0023" x="0" y="1080" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0024" x="0" y="1080" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0025" x="0" y="1080" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0026" x="0" y="1080" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0027" x="0" y="1080" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0028" x="0" y="1080" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0029" x="0" y="1080" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0030" x="0" y="1080" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0031" x="0" y="1080" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0032" x="1920" y="1080" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0033" x="1920" y="1080" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0034" x="1920" y="1080" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0035" x="1920" y="1080" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0036" x="1920" y="1080" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0037" x="1920" y="1080" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0038" x="1920" y="1080" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0039" x="3840" y="1080" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0040" x="3840" y="1080" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0041" x="3840" y="1080" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0042" x="3840" y="1080" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0043" x="3840" y="1080" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0044" x="3840" y="1080" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0045" x="3840" y="1080" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0046" x="5760" y="1080" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0047" x="5760" y="1080" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0048" x="5760" y="1080" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0049" x="5760" y="1080" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0050" x="5760" y="1080" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0051" x="5760" y="1080" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0052" x="5760" y="1080" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0053" x="0" y="2160" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0054" x="0" y="2160" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0055" x="0" y="2160" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0056" x="0" y="2160" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0057" x="0" y="2160" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0058" x="0" y="2160" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0059" x="0" y="2160" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0060" x="0" y="2160" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0061" x="0" y="2160" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0062" x="1920" y="2160" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0063" x="1920" y="2160" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0064" x="1920" y="2160" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0065" x="1920" y="2160" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0066" x="1920" y="2160" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0067" x="1920" y="2160" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0068" x="1920" y="2160" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0069" x="1920" y="2160" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0070" x="1920" y="2160" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0071" x="1920" y="2160" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0072" x="3840" y="2160" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0073" x="3840" y="2160" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0074" x="3840" y="2160" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0075" x="3840" y="2160" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0076" x="3840" y="2160" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0077" x="3840" y="2160" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0078" x="3840" y="2160" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0079" x="3840" y="2160" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0080" x="5760" y="2160" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0081" x="5760" y="2160" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0082" x="5760" y="2160" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0083" x="5760" y="2160" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0084" x="5760" y="2160" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0085" x="0" y="3240" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0086" x="0" y="3240" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0087" x="0" y="3240" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0088" x="0" y="3240" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0089" x="0" y="3240" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0090" x="0" y="3240" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0091" x="0" y="3240" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0092" x="0" y="3240" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0093" x="1920" y="3240" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0094" x="1920" y="3240" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0095" x="1920" y="3240" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0096" x="1920" y="3240" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0097" x="1920" y="3240" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0098" x="1920" y="3240" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0099" x="3840" y="3240" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0100" x="3840" y="3240" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0101" x="3840" y="3240" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0102" x="3840" y="3240" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0103" x="3840" y="3240" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0104" x="3840" y="3240" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0105" x="3840" y="3240" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0106" x="3840" y="3240" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0107" x="3840" y="3240" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0108" x="5760" y="3240" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0109" x="5760" y="3240" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0110" x="5760" y="3240" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0111" x="5760" y="3240" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0112" x="5760" y="3240" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0113" x="5760" y="3240" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0114" x="5760" y="3240" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0115" x="5760" y="3240" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0116" x="5760" y="3240" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0117" x="5760" y="3240" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0118" x="5760" y="3240" width="1920" height="1080"/>
-	<SubTexture name="dialoguebox0119" x="0" y="4320" width="1920" height="1080"/>
+	<SubTexture name="normal box0000" x="0" y="0" width="1175" height="407"/>
+	<SubTexture name="normal box0001" x="1185" y="0" width="1175" height="407"/>
+	<SubTexture name="normal box0002" x="2370" y="0" width="1175" height="407"/>
+	<SubTexture name="normal box0003" x="3555" y="0" width="1175" height="407"/>
+	<SubTexture name="normal box0004" x="4740" y="0" width="1175" height="407"/>
+	<SubTexture name="normal box0005" x="5925" y="0" width="1175" height="407"/>
+	<SubTexture name="normal box0006" x="0" y="417" width="1175" height="407"/>
+	<SubTexture name="normal box0007" x="1185" y="417" width="1175" height="407"/>
+	<SubTexture name="normal box0008" x="2370" y="417" width="1175" height="407"/>
+	<SubTexture name="normal box0009" x="3555" y="417" width="1175" height="407"/>
+	<SubTexture name="normal box0010" x="4740" y="417" width="1175" height="407"/>
+	<SubTexture name="normal box0011" x="5925" y="417" width="1175" height="407"/>
+	<SubTexture name="normal box0012" x="0" y="834" width="1175" height="407"/>
+	<SubTexture name="normal box0013" x="1185" y="834" width="1175" height="407"/>
+	<SubTexture name="normal box0014" x="2370" y="834" width="1175" height="407"/>
+	<SubTexture name="normal box0015" x="3555" y="834" width="1175" height="407"/>
+	<SubTexture name="normal box0016" x="4740" y="834" width="1175" height="407"/>
+	<SubTexture name="normal box0017" x="5925" y="834" width="1175" height="407"/>
+	<SubTexture name="normal box0018" x="0" y="1251" width="1175" height="407"/>
+	<SubTexture name="normal box0019" x="1185" y="1251" width="1175" height="407"/>
+	<SubTexture name="normal box0020" x="2370" y="1251" width="1175" height="407"/>
+	<SubTexture name="normal box0021" x="3555" y="1251" width="1175" height="407"/>
+	<SubTexture name="normal box0022" x="4740" y="1251" width="1175" height="407"/>
+	<SubTexture name="normal box0023" x="5925" y="1251" width="1175" height="407"/>
+	<SubTexture name="normal box0024" x="0" y="1668" width="1175" height="407"/>
+	<SubTexture name="normal box0025" x="1185" y="1668" width="1175" height="407"/>
+	<SubTexture name="normal box0026" x="2370" y="1668" width="1175" height="407"/>
+	<SubTexture name="normal box0027" x="3555" y="1668" width="1175" height="407"/>
+	<SubTexture name="normal box0028" x="4740" y="1668" width="1175" height="407"/>
+	<SubTexture name="normal box0029" x="5925" y="1668" width="1175" height="407"/>
+	<SubTexture name="special box0000" x="0" y="2085" width="1160" height="378"/>
+	<SubTexture name="special box0001" x="1170" y="2085" width="1160" height="378"/>
+	<SubTexture name="special box0002" x="2340" y="2085" width="1160" height="378"/>
+	<SubTexture name="special box0003" x="3510" y="2085" width="1160" height="378"/>
+	<SubTexture name="special box0004" x="4680" y="2085" width="1160" height="378"/>
+	<SubTexture name="special box0005" x="5850" y="2085" width="1160" height="378"/>
+	<SubTexture name="special box0006" x="7020" y="2085" width="1160" height="378"/>
+	<SubTexture name="special box0007" x="0" y="2473" width="1160" height="378"/>
+	<SubTexture name="special box0008" x="1170" y="2473" width="1160" height="378"/>
+	<SubTexture name="special box0009" x="2340" y="2473" width="1160" height="378"/>
+	<SubTexture name="special box0010" x="3510" y="2473" width="1160" height="378"/>
+	<SubTexture name="special box0011" x="4680" y="2473" width="1160" height="378"/>
+	<SubTexture name="special box0012" x="5850" y="2473" width="1160" height="378"/>
+	<SubTexture name="special box0013" x="7020" y="2473" width="1160" height="378"/>
+	<SubTexture name="special box0014" x="0" y="2861" width="1160" height="378"/>
+	<SubTexture name="special box0015" x="1170" y="2861" width="1160" height="378"/>
+	<SubTexture name="special box0016" x="2340" y="2861" width="1160" height="378"/>
+	<SubTexture name="special box0017" x="3510" y="2861" width="1160" height="378"/>
+	<SubTexture name="special box0018" x="4680" y="2861" width="1160" height="378"/>
+	<SubTexture name="special box0019" x="5850" y="2861" width="1160" height="378"/>
+	<SubTexture name="special box0020" x="7020" y="2861" width="1160" height="378"/>
+	<SubTexture name="special box0021" x="0" y="3249" width="1160" height="378"/>
+	<SubTexture name="special box0022" x="1170" y="3249" width="1160" height="378"/>
+	<SubTexture name="special box0023" x="2340" y="3249" width="1160" height="378"/>
+	<SubTexture name="special box0024" x="3510" y="3249" width="1160" height="378"/>
+	<SubTexture name="special box0025" x="4680" y="3249" width="1160" height="378"/>
+	<SubTexture name="special box0026" x="5850" y="3249" width="1160" height="378"/>
+	<SubTexture name="special box0027" x="7020" y="3249" width="1160" height="378"/>
+	<SubTexture name="special box0028" x="0" y="3637" width="1160" height="378"/>
+	<SubTexture name="special box0029" x="1170" y="3637" width="1160" height="378"/>
 </TextureAtlas>

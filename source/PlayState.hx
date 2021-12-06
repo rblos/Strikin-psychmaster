@@ -1117,7 +1117,7 @@ class PlayState extends MusicBeatState
 					schoolIntro(doof);
 
 				case 'you-are-stronger' | 'what-you-wish-for':
-					strikinIntro(doofp);
+					strikinIntro(doofp, true);
 				default:
 					startCountdown();
 			}
@@ -1365,33 +1365,46 @@ class PlayState extends MusicBeatState
 	public function startResponse():Void
 	{
 		if (ChoiceSubState.chosenValue == 1)
-			copyIntro(response1);
+			strikinIntro(response1, false);
 
 		else if (ChoiceSubState.chosenValue == 2)
-			copyIntro(response2);
+			strikinIntro(response2, false);
 
 		else if (ChoiceSubState.chosenValue == 3)
-			copyIntro(response3);
+			strikinIntro(response3, false);
 	}
 
-	public function strikinIntro(?dialogueBox:DialogueBoxStrikin):Void
+	public function strikinIntro(?dialogueBox:DialogueBoxStrikin, isIntro:Bool):Void
 	{
 		inCutscene = true;
 		var black:FlxSprite = new FlxSprite(-100, -100).makeGraphic(FlxG.width * 2, FlxG.height * 2, FlxColor.BLACK);
 		add(black);
 		black.scrollFactor.set();
 
-		dialogueBars = new FlxSprite(0, 0);
-		dialogueBars.frames = Paths.getSparrowAtlas('dialogue/dialogue_bars', 'strikin');
-		dialogueBars.animation.addByPrefix('idle', 'thesquares', 60, true);
-		dialogueBars.setGraphicSize(Std.int(dialogueBars.width * 0.8));
-		dialogueBars.updateHitbox();
-		dialogueBars.animation.play('idle');
-		dialogueBars.scrollFactor.set();
-		dialogueBars.screenCenter(X);
-		dialogueBars.screenCenter(Y);
-		//dialogueBars.alpha = 0;
-		add(dialogueBars);
+		if (!isIntro)
+			black.alpha = 0;
+
+		if (dialogueBars == null)
+		{
+			dialogueBars = new FlxSprite(0, 0);
+			dialogueBars.frames = Paths.getSparrowAtlas('dialogue/dialogue_bars', 'strikin');
+			dialogueBars.animation.addByPrefix('idle', 'thesquares', 60, true);
+			dialogueBars.setGraphicSize(Std.int(dialogueBars.width * 0.8));
+			dialogueBars.updateHitbox();
+			dialogueBars.animation.play('idle');
+			dialogueBars.scrollFactor.set();
+			dialogueBars.screenCenter(X);
+			dialogueBars.screenCenter(Y);
+			dialogueBars.alpha = 0;
+			add(dialogueBars);
+		}
+
+		new FlxTimer().start(0.7, function(tmr:FlxTimer)
+		{
+			dialogueBars.alpha += (1 / 5) * 1;
+			if (dialogueBars.alpha > 1)
+				dialogueBars.alpha = 1;
+		}, 5);
 
 		new FlxTimer().start(0.3, function(tmr:FlxTimer)
 		{	
@@ -1411,19 +1424,6 @@ class PlayState extends MusicBeatState
 		});
 	}
 
-	public function copyIntro(?dialogueBox:DialogueBoxStrikin):Void
-	{
-		inCutscene = true;
-
-		new FlxTimer().start(0.3, function(tmr:FlxTimer)
-		{	
-			if (dialogueBox != null)
-				add(dialogueBox);
-			else
-				startCountdown();
-		});
-	}
-
 
 	public function responseIntro():Void
 	{
@@ -1435,10 +1435,8 @@ class PlayState extends MusicBeatState
 		new FlxTimer().start(0.2, function(tmr:FlxTimer)
 			{
 					dialogueBars.alpha -= 1 / 5;
-					
-					if (dialogueBars.alpha == 0)
-						dialogueBars.kill();
 			}, 5);
+			dialogueBars.kill();
 	}
 
 	var startTimer:FlxTimer;
@@ -2053,10 +2051,6 @@ class PlayState extends MusicBeatState
 					FlxG.watch.addQuick("boyfriend.y", boyfriend.y);
 					FlxG.watch.addQuick("gf.x", gf.x);
 					FlxG.watch.addQuick("gf.y", gf.y); */
-					FlxG.watch.addQuick("bgChars.x", bgChars.x);
-					FlxG.watch.addQuick("bgChars.y", bgChars.y);
-					FlxG.watch.addQuick("fgChars.x", fgChars.x);
-					FlxG.watch.addQuick("fgChars.y", fgChars.y);
 					FlxG.watch.addQuick("cameraZoom", defaultCamZoom);
 				}
 		#end

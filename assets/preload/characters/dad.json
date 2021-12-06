@@ -2,8 +2,8 @@
 	"animations": [
 		{
 			"offsets": [
-				-9,
-				10
+				-5,
+				27
 			],
 			"loop": false,
 			"anim": "singLEFT",
@@ -14,34 +14,12 @@
 		{
 			"offsets": [
 				0,
-				-30
+				-32
 			],
 			"loop": false,
 			"anim": "singDOWN",
 			"fps": 24,
 			"name": "Dad Sing Note DOWN",
-			"indices": []
-		},
-		{
-			"offsets": [
-				-6,
-				50
-			],
-			"loop": false,
-			"anim": "singUP",
-			"fps": 24,
-			"name": "Dad Sing Note UP",
-			"indices": []
-		},
-		{
-			"offsets": [
-				0,
-				27
-			],
-			"loop": false,
-			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "Dad Sing Note RIGHT",
 			"indices": []
 		},
 		{
@@ -73,8 +51,8 @@
 		},
 		{
 			"offsets": [
-				-9,
-				10
+				-5,
+				27
 			],
 			"loop": true,
 			"fps": 24,
@@ -88,38 +66,6 @@
 			"name": "Dad Sing Note LEFT"
 		},
 		{
-			"offsets": [
-				0,
-				27
-			],
-			"loop": true,
-			"fps": 24,
-			"anim": "singRIGHT-loop",
-			"indices": [
-				15,
-				16,
-				17,
-				18
-			],
-			"name": "Dad Sing Note RIGHT"
-		},
-		{
-			"offsets": [
-				-6,
-				50
-			],
-			"loop": true,
-			"fps": 24,
-			"anim": "singUP-loop",
-			"indices": [
-				56,
-				57,
-				58,
-				59
-			],
-			"name": "Dad Sing Note UP"
-		},
-		{
 			"loop": false,
 			"offsets": [
 				140,
@@ -129,6 +75,87 @@
 			"fps": 24,
 			"name": "WhatYouKnowAboutRollingDownInTheDeep",
 			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-8,
+				12
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "dad sing note right",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-8,
+				12
+			],
+			"anim": "singRIGHT-loop",
+			"fps": 24,
+			"name": "dad sing note right",
+			"indices": [
+				15,
+				16,
+				17,
+				18
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-6,
+				52
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Dad Sing note UP",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-6,
+				52
+			],
+			"anim": "singUP-loop",
+			"fps": 24,
+			"name": "Dad Sing note UP",
+			"indices": [
+				56,
+				57,
+				58,
+				59
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				-6
+			],
+			"anim": "mad",
+			"fps": 24,
+			"name": "Dad mad",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-4,
+				-6
+			],
+			"indices": [
+				3,
+				4,
+				5,
+				6
+			],
+			"fps": 24,
+			"anim": "mad-loop",
+			"loop": true,
+			"name": "Dad mad"
 		}
 	],
 	"no_antialiasing": false,

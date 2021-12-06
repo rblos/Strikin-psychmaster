@@ -3,7 +3,7 @@
 		{
 			"loop": false,
 			"offsets": [
-				2,
+				0,
 				0
 			],
 			"anim": "singUP",
@@ -65,6 +65,28 @@
 				14
 			],
 			"name": "GF Dancing Beat Hair blowing CAR"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-4
+			],
+			"anim": "cheer",
+			"fps": 24,
+			"name": "GF Cheer Hair blowing",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-2,
+				-12
+			],
+			"anim": "scared",
+			"fps": 24,
+			"name": "GF FEAR Hair Blowing",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,

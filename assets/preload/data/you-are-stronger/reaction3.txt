@@ -1,2 +1,7 @@
-:dad: i hate you for saying that
-:dad-alt: anyways lets rock
+:dad:normal:Even the metaverse couldn’t get you away from my daughter.
+:dad:alt:Listen. Get through me first, and maybe I’ll let you off the hook.
+:audio:0.6:morgana/noangry
+:morgana:sad:Hey now, I don’t want to have any trouble.
+:dad:normal:Sorry little cat, you’ll just need to just sit back and watch the show.
+:audio:0.6:morgana/i am not a cat
+:morgana:mad:I am NOT a cat!

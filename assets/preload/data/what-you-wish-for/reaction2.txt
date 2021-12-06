@@ -1,2 +1,2 @@
-:pico: you're ugly
-:pico-alt: now you're gonna die
+:pico:normal:you're ugly
+:pico:alt:now you're gonna die

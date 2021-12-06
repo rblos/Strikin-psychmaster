@@ -1,3 +1,3 @@
-:dad: shit
-:dad-alt: i was killed
-:pico: lol i killed him
+:dad:normal:shit
+:dad:alt:i was killed
+:pico:normal:lol i killed him

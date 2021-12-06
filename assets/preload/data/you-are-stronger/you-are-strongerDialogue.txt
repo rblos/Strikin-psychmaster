@@ -1,10 +1,3 @@
-:pico:lets do this
-:bf-alt:ok
-:pico-alt:oh you want a challenge
-:bf:i didnt say that
-:bf:and youre not even here
-:pico:ok
-:dad:im back
-:dad-alt:lets see what you got
-:dad:and if you die
-:dad-alt:ill kill you
+:dad:normal:I’m back.
+:audio:0.6:morgana/i cant believe this
+:morgana:mad:Now who’s this supposed to be? Why do I have to deal with this right now?!

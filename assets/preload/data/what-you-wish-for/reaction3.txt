@@ -1,2 +1,2 @@
-:pico-alt: get blue balled
-:pico-alt: now you're gonna die
+:pico:normal:get blue balled
+:pico:alt:now you're gonna die

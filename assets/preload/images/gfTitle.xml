@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gfTitle.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="gfTitle0000" x="0" y="0" width="2026" height="1507"/>
+	<SubTexture name="gfTitle0001" x="0" y="0" width="2026" height="1507"/>
+	<SubTexture name="gfTitle0002" x="2036" y="0" width="2026" height="1507"/>
+	<SubTexture name="gfTitle0003" x="2036" y="0" width="2026" height="1507"/>
+	<SubTexture name="gfTitle0004" x="4072" y="0" width="2026" height="1507"/>
+	<SubTexture name="gfTitle0005" x="4072" y="0" width="2026" height="1507"/>
+	<SubTexture name="gfTitle0006" x="6108" y="0" width="2026" height="1507"/>
+	<SubTexture name="gfTitle0007" x="6108" y="0" width="2026" height="1507"/>
+	<SubTexture name="gfTitle0008" x="0" y="1517" width="2026" height="1507"/>
+	<SubTexture name="gfTitle0009" x="0" y="1517" width="2026" height="1507"/>
+	<SubTexture name="gfTitle0010" x="0" y="1517" width="2026" height="1507"/>
+	<SubTexture name="gfTitle0011" x="2036" y="1517" width="2026" height="1507"/>
+	<SubTexture name="gfTitle0012" x="2036" y="1517" width="2026" height="1507"/>
+	<SubTexture name="gfTitle0013" x="2036" y="1517" width="2026" height="1507"/>
+</TextureAtlas>

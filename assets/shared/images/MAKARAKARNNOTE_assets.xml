@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="MAKARAKARNNOTE_assets.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="blue0000" x="0" y="0" width="217" height="190"/>
+	<SubTexture name="blue0001" x="0" y="0" width="217" height="190"/>
+	<SubTexture name="blue0002" x="227" y="0" width="217" height="190"/>
+	<SubTexture name="blue0003" x="227" y="0" width="217" height="190"/>
+	<SubTexture name="blue hold end0000" x="454" y="0" width="50" height="64"/>
+	<SubTexture name="blue hold piece0000" x="514" y="0" width="50" height="44"/>
+	<SubTexture name="green0000" x="574" y="0" width="218" height="185"/>
+	<SubTexture name="green0001" x="574" y="0" width="218" height="185"/>
+	<SubTexture name="green0002" x="802" y="0" width="218" height="185"/>
+	<SubTexture name="green0003" x="802" y="0" width="218" height="185"/>
+	<SubTexture name="green hold end0000" x="454" y="0" width="50" height="64"/>
+	<SubTexture name="green hold piece0000" x="514" y="0" width="50" height="44"/>
+	<SubTexture name="purple0000" x="0" y="200" width="185" height="218"/>
+	<SubTexture name="purple0001" x="0" y="200" width="185" height="218"/>
+	<SubTexture name="purple0002" x="195" y="200" width="185" height="218"/>
+	<SubTexture name="purple0003" x="195" y="200" width="185" height="218"/>
+	<SubTexture name="purple hold end0000" x="454" y="0" width="50" height="64"/>
+	<SubTexture name="purple hold piece0000" x="514" y="0" width="50" height="44"/>
+	<SubTexture name="red0000" x="390" y="200" width="189" height="218"/>
+	<SubTexture name="red0001" x="390" y="200" width="189" height="218"/>
+	<SubTexture name="red0002" x="589" y="200" width="189" height="218"/>
+	<SubTexture name="red0003" x="589" y="200" width="189" height="218"/>
+	<SubTexture name="red hold end0000" x="454" y="0" width="50" height="64"/>
+	<SubTexture name="red hold piece0000" x="514" y="0" width="50" height="44"/>
+</TextureAtlas>

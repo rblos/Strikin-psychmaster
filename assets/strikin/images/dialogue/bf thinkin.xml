@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bf thinkin.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bf blink0000" x="0" y="0" width="465" height="465"/>
+	<SubTexture name="bf blink0001" x="0" y="475" width="465" height="465"/>
+	<SubTexture name="bf blink0002" x="475" y="0" width="465" height="465"/>
+	<SubTexture name="bf blink0003" x="0" y="0" width="465" height="465"/>
+</TextureAtlas>

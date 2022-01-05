@@ -1,161 +1,161 @@
 {
 	"animations": [
 		{
-			"offsets": [
-				-5,
-				27
-			],
 			"loop": false,
-			"anim": "singLEFT",
-			"fps": 24,
-			"name": "Dad Sing Note LEFT",
-			"indices": []
-		},
-		{
 			"offsets": [
 				0,
 				-32
 			],
-			"loop": false,
-			"anim": "singDOWN",
 			"fps": 24,
-			"name": "Dad Sing Note DOWN",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Dad Sing Note DOWN"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
+			"fps": 24,
 			"anim": "idle",
+			"indices": [],
+			"name": "Dad idle dance"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle-loop",
 			"fps": 24,
 			"name": "Dad idle dance",
-			"indices": []
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
-			"loop": true,
-			"fps": 24,
-			"anim": "idle-loop",
 			"indices": [
 				10,
 				11,
 				12,
 				12
+			]
+		},
+		{
+			"offsets": [
+				140,
+				-100
 			],
-			"name": "Dad idle dance"
+			"loop": false,
+			"fps": 24,
+			"anim": "hey",
+			"indices": [],
+			"name": "WhatYouKnowAboutRollingDownInTheDeep"
+		},
+		{
+			"offsets": [
+				-6,
+				52
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Dad Sing note UP"
+		},
+		{
+			"offsets": [
+				-6,
+				52
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singUP-loop",
+			"indices": [
+				56,
+				57,
+				58,
+				59
+			],
+			"name": "Dad Sing note UP"
+		},
+		{
+			"offsets": [
+				-4,
+				-6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "mad",
+			"indices": [],
+			"name": "Dad mad"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-4,
+				-6
+			],
+			"anim": "mad-loop",
+			"fps": 24,
+			"name": "Dad mad",
+			"indices": [
+				3,
+				4,
+				5,
+				6
+			]
 		},
 		{
 			"offsets": [
 				-5,
-				27
+				26
 			],
-			"loop": true,
+			"indices": [],
 			"fps": 24,
-			"anim": "singLEFT-loop",
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Dad Sing Note LEFT"
+		},
+		{
+			"offsets": [
+				-5,
+				10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "dad sing note right"
+		},
+		{
+			"offsets": [
+				-5,
+				26
+			],
+			"indices": [
+				15,
+				16,
+				17,
+				18
+			],
+			"fps": 24,
+			"anim": "singRIGHT-loop",
+			"loop": true,
+			"name": "Dad Sing Note LEFT"
+		},
+		{
+			"offsets": [
+				-5,
+				10
+			],
 			"indices": [
 				12,
 				13,
 				14,
 				15
 			],
-			"name": "Dad Sing Note LEFT"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				140,
-				-100
-			],
-			"anim": "hey",
 			"fps": 24,
-			"name": "WhatYouKnowAboutRollingDownInTheDeep",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-8,
-				12
-			],
-			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "dad sing note right",
-			"indices": []
-		},
-		{
+			"anim": "singLEFT-loop",
 			"loop": true,
-			"offsets": [
-				-8,
-				12
-			],
-			"anim": "singRIGHT-loop",
-			"fps": 24,
-			"name": "dad sing note right",
-			"indices": [
-				15,
-				16,
-				17,
-				18
-			]
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-6,
-				52
-			],
-			"anim": "singUP",
-			"fps": 24,
-			"name": "Dad Sing note UP",
-			"indices": []
-		},
-		{
-			"loop": true,
-			"offsets": [
-				-6,
-				52
-			],
-			"anim": "singUP-loop",
-			"fps": 24,
-			"name": "Dad Sing note UP",
-			"indices": [
-				56,
-				57,
-				58,
-				59
-			]
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-4,
-				-6
-			],
-			"anim": "mad",
-			"fps": 24,
-			"name": "Dad mad",
-			"indices": []
-		},
-		{
-			"offsets": [
-				-4,
-				-6
-			],
-			"indices": [
-				3,
-				4,
-				5,
-				6
-			],
-			"fps": 24,
-			"anim": "mad-loop",
-			"loop": true,
-			"name": "Dad mad"
+			"name": "dad sing note right"
 		}
 	],
 	"no_antialiasing": false,

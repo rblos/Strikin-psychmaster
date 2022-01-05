@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="menu_buttons.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="awards0000" x="0" y="0" width="673" height="335"/>
+	<SubTexture name="awards alt0000" x="683" y="0" width="673" height="335"/>
+	<SubTexture name="credits0000" x="1366" y="0" width="657" height="340"/>
+	<SubTexture name="credits alt0000" x="2033" y="0" width="657" height="340"/>
+	<SubTexture name="freeplay0000" x="2700" y="0" width="789" height="317"/>
+	<SubTexture name="freeplay alt0000" x="0" y="350" width="789" height="317"/>
+	<SubTexture name="joe nuts club0000" x="799" y="350" width="1048" height="564"/>
+	<SubTexture name="joe nuts club alt0000" x="1857" y="350" width="1048" height="564"/>
+	<SubTexture name="options0000" x="2915" y="350" width="724" height="428"/>
+	<SubTexture name="options alt0000" x="0" y="924" width="724" height="428"/>
+	<SubTexture name="story mode0000" x="734" y="924" width="634" height="388"/>
+	<SubTexture name="story mode alt0000" x="1378" y="924" width="634" height="388"/>
+</TextureAtlas>

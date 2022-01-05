@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="leblancNight lightning.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="leblancNight lightning0000" x="0" y="0" width="2560" height="1440"/>
+	<SubTexture name="leblancNight lightning0001" x="2570" y="0" width="2560" height="1440"/>
+	<SubTexture name="leblancNight lightning0002" x="5140" y="0" width="2560" height="1440"/>
+	<SubTexture name="leblancNight lightning0003" x="0" y="1450" width="2560" height="1440"/>
+	<SubTexture name="leblancNight lightning0004" x="2570" y="1450" width="2560" height="1440"/>
+	<SubTexture name="leblancNight lightning0005" x="5140" y="1450" width="2560" height="1440"/>
+	<SubTexture name="leblancNight lightning0006" x="0" y="2900" width="2560" height="1440"/>
+	<SubTexture name="leblancNight lightning0007" x="2570" y="2900" width="2560" height="1440"/>
+	<SubTexture name="leblancNight lightning0008" x="5140" y="2900" width="2560" height="1440"/>
+	<SubTexture name="leblancNight lightning0009" x="0" y="4350" width="2560" height="1440"/>
+</TextureAtlas>

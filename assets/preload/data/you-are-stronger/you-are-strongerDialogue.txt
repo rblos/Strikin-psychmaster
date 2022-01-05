@@ -1,3 +1,25 @@
+:bg:leblanc
+:audio:0.5:morgana/good morning
+:morgana:normal:Ahh, good morn-
+:audio:0.5:morgana/joker
+:morgana:normal:Huh? Joker?
+:audio:0.5:morgana/aw man
+:morgana:sad:...must've left to practice for that upcoming rap battle.
+:audio:0.5:morgana/what
+:morgana:mad:How did you?! Ugh! I thought I told you guys to GO HOME!
+:audio:0.5:morgana/man
+:morgana:sad:Follow me out...I guess I’ll show you the way. Just promise me you won’t get me into this mess again.
+:transition:black:
+:bg:
+:transition:remove:4
 :dad:normal:I’m back.
-:audio:0.6:morgana/i cant believe this
+:audio:0.5:morgana/i cant believe this
 :morgana:mad:Now who’s this supposed to be? Why do I have to deal with this right now?!
+:crowd:Morgana, what's going on?
+:dad:normal:The metaverse navigator couldn’t keep you away from MY daughter, huh?
+:dad:normal:The only way YOU'RE getting off the hook is if you get through ME first.
+:audio:0.5:morgana/noangry
+:morgana:sad:Hey now, I don’t want to have any trouble.
+:dad:normal:Sorry little tomcat, you’ll just need to just sit back and watch the show!
+:audio:0.5:morgana/i am not a cat
+:morgana:mad:I am NOT a cat!

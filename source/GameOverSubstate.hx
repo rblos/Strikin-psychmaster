@@ -60,6 +60,22 @@ class GameOverSubstate extends MusicBeatSubstate
 		camFollowPos = new FlxObject(0, 0, 1, 1);
 		camFollowPos.setPosition(FlxG.camera.scroll.x + (FlxG.camera.width / 2), FlxG.camera.scroll.y + (FlxG.camera.height / 2));
 		add(camFollowPos);
+
+		new FlxTimer().start(2, function(tmr:FlxTimer)
+		{
+		FlxG.sound.music.fadeOut(1, 0.3);
+
+			new FlxTimer().start(0.7, function(tmr:FlxTimer)
+			{
+				FlxG.sound.play(Paths.soundRandom('fns/morgana/taunt/morgana', 1, 8), 1, false, null, true, function()
+				{
+					new FlxTimer().start(0.2, function(tmr:FlxTimer)
+						{
+							FlxG.sound.music.fadeIn(1, 0.3, 1);
+						});	
+				});
+			});
+		});
 	}
 
 	override function update(elapsed:Float)
@@ -88,7 +104,7 @@ class GameOverSubstate extends MusicBeatSubstate
 			else
 				MusicBeatState.switchState(new FreeplayState());
 
-			FlxG.sound.playMusic(Paths.music('freakyMenu'));
+			FlxG.sound.playMusic(Paths.music('POOP_LOOP'));
 			lePlayState.callOnLuas('onGameOverConfirm', [false]);
 		}
 

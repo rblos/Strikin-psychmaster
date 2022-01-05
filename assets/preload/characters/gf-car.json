@@ -1,24 +1,25 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "GF Dancing Beat Hair blowing CAR",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "GF Dancing Beat Hair blowing CAR"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"fps": 24,
+			"loop": false,
 			"anim": "danceRight",
+			"fps": 24,
+			"name": "GF Dancing Beat Hair blowing CAR",
 			"indices": [
 				15,
 				16,
@@ -35,17 +36,17 @@
 				27,
 				28,
 				29
-			],
-			"name": "GF Dancing Beat Hair blowing CAR"
+			]
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"fps": 24,
+			"loop": false,
 			"anim": "danceLeft",
+			"fps": 24,
+			"name": "GF Dancing Beat Hair blowing CAR",
 			"indices": [
 				30,
 				0,
@@ -63,30 +64,40 @@
 				12,
 				13,
 				14
-			],
-			"name": "GF Dancing Beat Hair blowing CAR"
+			]
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				-4
 			],
-			"anim": "cheer",
+			"loop": false,
 			"fps": 24,
-			"name": "GF Cheer Hair blowing",
-			"indices": []
+			"anim": "cheer",
+			"indices": [],
+			"name": "GF Cheer Hair blowing"
 		},
 		{
-			"loop": true,
 			"offsets": [
 				-2,
 				-12
 			],
-			"anim": "scared",
+			"loop": true,
 			"fps": 24,
-			"name": "GF FEAR Hair Blowing",
-			"indices": []
+			"anim": "scared",
+			"indices": [],
+			"name": "GF FEAR Hair Blowing"
+		},
+		{
+			"offsets": [
+				-2,
+				-10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "sad",
+			"loop": false,
+			"name": "gf sad Hair Blowing"
 		}
 	],
 	"no_antialiasing": false,

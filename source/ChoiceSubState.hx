@@ -29,12 +29,12 @@ class ChoiceSubState extends MusicBeatSubstate
 	var curSelected:Int = 0;
 
 	var bf:FlxSprite;
+	var tempNum:Float = 1;
 
 	public var iSpoke:Void->Void;
+	public var stateClose:Void->Void;
 
 	public static var chosenValue:Int = 0;
-
-	public static var youcanproceed:Int = 0;
 
 	//var blinkOffset:Int = 1;
 
@@ -50,13 +50,22 @@ class ChoiceSubState extends MusicBeatSubstate
 		bg.scrollFactor.set();
 		add(bg);
 
-		bf = new FlxSprite(900, 200);
-		bf.frames = Paths.getSparrowAtlas('dialogue/BFBLINK', 'strikin');
-		//bf.animation.addByIndices('idle', "bf blink lol", [0], "", 24, false);
-		bf.animation.addByPrefix('blink', "bf blink lol", 24, true);
-		bf.animation.play('blink');
+		var gray:FlxSprite = new FlxSprite(-200, -100).loadGraphic(Paths.image('dialogue/gray', 'strikin'));
+		gray.setGraphicSize(Std.int(gray.width * 0.7));
+		gray.screenCenter(X);
+		gray.screenCenter(Y);
+		gray.antialiasing = ClientPrefs.globalAntialiasing;
+		gray.alpha = 0.8;
+		add(gray);
+
+		bf = new FlxSprite(910, 267);
+		bf.frames = Paths.getSparrowAtlas('dialogue/bf thinkin', 'strikin');
+		bf.animation.addByIndices('idle', "bf blink", [0], "", 24, false);
+		bf.animation.addByPrefix('blink', "bf blink", 24, false);
+		bf.animation.play('idle');
 		bf.antialiasing = ClientPrefs.globalAntialiasing;
-		//bf.setGraphicSize(Std.int(bf.width * 1));
+		bf.setGraphicSize(Std.int(bf.width * 1.12));
+		bf.updateHitbox();
 		add(bf);
 
 		var lines:FlxSprite = new FlxSprite(-200, -100).loadGraphic(Paths.image('dialogue/dialogued', 'strikin'));
@@ -100,10 +109,8 @@ class ChoiceSubState extends MusicBeatSubstate
 
 	override function update(elapsed:Float)
 	{
-		/* blinkOffset = FlxG.random.int(1, 25);
-
-		if (blinkOffset >= 15 && FlxG.random.bool(25))
-				bf.animation.play('blink'); */
+		if (FlxG.random.bool(1))
+				bf.animation.play('blink');
 
 		super.update(elapsed);
 
@@ -132,18 +139,53 @@ class ChoiceSubState extends MusicBeatSubstate
 					chosenValue = 3;
 			}
 
-			DialogueBoxStrikin.canKill = true;
-
+			stateClose();
 			close();
 				FlxG.sound.play(Paths.sound('fns/dialogueclose'));
 
 				new FlxTimer().start(0.8, function(tmr:FlxTimer)
 					{
-						PlayState.playdialogue = true;
-						DialogueBoxStrikin.dialogueFunctions = true;
-						trace('playdialogue is now cool');
+						iSpoke();
 					});
 		}
+
+		#if debug
+		var sprite:FlxSprite = bf;
+		var multiplier:Int;
+
+		if (FlxG.keys.pressed.SHIFT)
+			multiplier = 40;
+		else
+			multiplier = 0;
+
+		if (FlxG.keys.justPressed.I)					
+			sprite.y -= 1 + multiplier;
+		if (FlxG.keys.justPressed.K)
+			sprite.y += 1 + multiplier;
+		if (FlxG.keys.justPressed.J)
+			sprite.x -= 1 + multiplier;
+		if (FlxG.keys.justPressed.L)
+			sprite.x += 1 + multiplier;
+
+		if (FlxG.keys.justPressed.NUMPADFOUR)
+		{
+			tempNum -= 0.01;
+			sprite.setGraphicSize(Std.int(sprite.width * tempNum));
+		}
+
+		if (FlxG.keys.justPressed.NUMPADSIX)
+		{
+			tempNum += 0.01;
+			sprite.setGraphicSize(Std.int(sprite.width * tempNum));
+		}
+
+		if (sprite != null)
+		{
+			FlxG.watch.addQuick("sprite.x", sprite.x);
+			FlxG.watch.addQuick("sprite.y", sprite.y);
+			FlxG.watch.addQuick("tempNum", tempNum);
+		}
+		#end
 	}
 
 	override function destroy()

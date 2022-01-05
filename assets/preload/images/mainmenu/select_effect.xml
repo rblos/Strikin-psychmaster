@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="select_effect.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="effect0000" x="0" y="0" width="733" height="199"/>
+	<SubTexture name="effect0001" x="743" y="0" width="733" height="199"/>
+	<SubTexture name="effect0002" x="1486" y="0" width="733" height="199"/>
+	<SubTexture name="effect0003" x="2229" y="0" width="733" height="199"/>
+	<SubTexture name="effect0004" x="2972" y="0" width="733" height="199"/>
+	<SubTexture name="effect0005" x="0" y="209" width="733" height="199"/>
+	<SubTexture name="effect0006" x="743" y="209" width="733" height="199"/>
+	<SubTexture name="effect0007" x="1486" y="209" width="733" height="199"/>
+	<SubTexture name="effect0008" x="2229" y="209" width="733" height="199"/>
+	<SubTexture name="effect0009" x="2972" y="209" width="733" height="199"/>
+	<SubTexture name="effect0010" x="0" y="418" width="733" height="199"/>
+	<SubTexture name="effect0011" x="743" y="418" width="733" height="199"/>
+	<SubTexture name="effect0012" x="1486" y="418" width="733" height="199"/>
+	<SubTexture name="effect0013" x="2229" y="418" width="733" height="199"/>
+	<SubTexture name="effect0014" x="2972" y="418" width="733" height="199"/>
+	<SubTexture name="effect0015" x="0" y="627" width="733" height="199"/>
+	<SubTexture name="effect0016" x="743" y="627" width="733" height="199"/>
+	<SubTexture name="effect0017" x="1486" y="627" width="733" height="199"/>
+	<SubTexture name="effect0018" x="2229" y="627" width="733" height="199"/>
+	<SubTexture name="effect0019" x="2972" y="627" width="733" height="199"/>
+	<SubTexture name="effect0020" x="0" y="836" width="733" height="199"/>
+</TextureAtlas>

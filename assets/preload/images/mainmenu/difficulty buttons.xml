@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="difficulty buttons.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="easy0000" x="0" y="569" width="463" height="188"/>
+	<SubTexture name="easy selected0000" x="473" y="569" width="463" height="188"/>
+	<SubTexture name="hard0000" x="0" y="368" width="469" height="191"/>
+	<SubTexture name="hard selected0000" x="479" y="368" width="469" height="191"/>
+	<SubTexture name="normal0000" x="0" y="0" width="713" height="174"/>
+	<SubTexture name="normal selected0000" x="0" y="184" width="713" height="174"/>
+</TextureAtlas>

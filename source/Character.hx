@@ -83,8 +83,6 @@ class Character extends FlxSprite
 		{
 			case 'leblancNight':
 				stageSuffix = '-leblancNight';
-			case 'metaverse':
-				stageSuffix = '-metaverse';
 			default:
 				stageSuffix = '';
 		}

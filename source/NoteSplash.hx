@@ -42,6 +42,10 @@ class NoteSplash extends FlxSprite
 		colorSwap.brightness = brtColor;
 		offset.set(10, 10);
 
+		if (texture == 'MakarakarnSplash') {
+			offset.set(60, 25);
+		}
+
 		var animNum:Int = FlxG.random.int(1, 2);
 		animation.play('note' + note + '-' + animNum, true);
 		animation.curAnim.frameRate = 24 + FlxG.random.int(-2, 2);

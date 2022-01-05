@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="bf load.png"><SubTexture name="bf load0000" x="0" y="0" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0001" x="404" y="0" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0002" x="808" y="0" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0003" x="1212" y="0" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0004" x="1616" y="0" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0005" x="2020" y="0" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0006" x="0" y="454" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0007" x="404" y="454" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0008" x="808" y="454" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0009" x="1212" y="454" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0010" x="1616" y="454" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0011" x="2020" y="454" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0012" x="0" y="908" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0013" x="404" y="908" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0014" x="808" y="908" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0015" x="1212" y="908" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0016" x="1616" y="908" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0017" x="2020" y="908" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0018" x="0" y="1362" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0019" x="404" y="1362" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0020" x="808" y="1362" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0021" x="1212" y="1362" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0022" x="1616" y="1362" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0023" x="2020" y="1362" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0024" x="0" y="1816" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0025" x="404" y="1816" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0026" x="808" y="1816" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0027" x="1212" y="1816" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0028" x="1616" y="1816" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0029" x="2020" y="1816" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0030" x="0" y="2270" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0031" x="404" y="2270" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0032" x="808" y="2270" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0033" x="1212" y="2270" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0034" x="1616" y="2270" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0035" x="2020" y="2270" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0036" x="0" y="2724" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0037" x="404" y="2724" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0038" x="808" y="2724" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+<SubTexture name="bf load0039" x="1212" y="2724" width="404" height="454" frameX="0" frameY="0" frameWidth="404" frameHeight="454" />
+</TextureAtlas>

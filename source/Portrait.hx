@@ -9,14 +9,13 @@ using StringTools;
 
 class Portrait extends FlxSprite
 {
-	private var character:String = "";
-	private var animSuffix:String = "bf0";
+	public var character:String = "";
+	public var animSuffix:String = "bf0";
 	public var canMove:Bool = true;
 	private var animNames:Array<Dynamic> = [
-		['normal', 0],
-		['alt', 1],
-		['happy', 1],
-		['mad', 2],
+		['normal', 0], ['skid', 0],
+		['alt', 1], ['happy', 1], ['pump', 1],
+		['mad', 2], ['both', 2],
 		['sad', 3],
 	];
 
@@ -30,6 +29,7 @@ class Portrait extends FlxSprite
 	}
 
 	public function setAnimNames() {
+		flipX = false;
 		switch (character)
 		{
 			case 'bf':
@@ -44,15 +44,13 @@ class Portrait extends FlxSprite
 				animation.addByIndices('standby bf1', 'bf talk1', [8, 9], "", 24, false);
 
 			case 'dad':
-				frames = Paths.getSparrowAtlas('dialogue/portraits', 'strikin');
-				animation.addByIndices('talk dad0', 'dad talk0', [0, 1, 2, 3, 4, 5], "", 24, true);
-				animation.addByIndices('stop dad0', 'dad talk0', [2, 3, 4, 5], "", 24, false);
-				animation.addByIndices('standby dad0', 'dad talk0', [4, 5, 6, 7], "", 24, true);
-				//dad alt
-				animation.addByIndices('initial talk dad1', 'dad talk1', [0, 1, 2, 3, 4, 5], "", 24, false);
-				animation.addByIndices('talk dad1', 'dad talk1', [6, 7, 8, 9, 4, 5], "", 24, true);
-				animation.addByIndices('stop dad1', 'dad talk1', [6, 7, 8, 9], "", 24, false);
-				animation.addByIndices('standby dad1', 'dad talk1', [8, 9, 10, 11], "", 24, true);
+				frames = Paths.getSparrowAtlas('dialogue/dad_portrait', 'strikin');
+				animation.addByIndices('talk dad0', 'dad1', [0, 1, 2, 3, 4, 5, 6, 7], "", 24, true);
+				animation.addByIndices('stop dad0', 'dad1', [1, 2, 3, 4, 5, 6, 7], "", 24, false);
+				animation.addByIndices('standby dad0', 'dad1', [5, 5, 6, 7], "", 24, true);
+
+				setGraphicSize(Std.int(width * 0.9));
+				flipX = true;
 
 			case 'pico':
 				frames = Paths.getSparrowAtlas('dialogue/portraits', 'strikin');
@@ -65,27 +63,41 @@ class Portrait extends FlxSprite
 				animation.addByIndices('stop pico1', 'pico talk1', [8, 9, 10, 11], "", 24, false);
 				animation.addByIndices('standby pico1', 'pico talk1', [10, 11], "", 24, false);
 
+			case 'spooky kids':
+				frames = Paths.getSparrowAtlas('dialogue/spooky_kids_portraits', 'strikin');
+				//both
+				animation.addByIndices('talk spooky kids2', 'both_portraits', [4, 5, 6, 7, 8, 9], "", 24, true);
+				animation.addByIndices('stop spooky kids2', 'both_portraits', [6, 7, 8, 9], "", 24, false);
+				animation.addByIndices('standby spooky kids2', 'both_portraits', [8, 9], "", 24, false);
+				//skid
+				animation.addByIndices('talk spooky kids0', 'skid_portraits', [4, 5, 6, 7, 8, 9], "", 24, true);
+				animation.addByIndices('stop spooky kids0', 'skid_portraits', [6, 7, 8, 9], "", 24, false);
+				animation.addByIndices('standby spooky kids0', 'skid_portraits', [8, 9], "", 24, false);
+				//pump
+				animation.addByIndices('talk spooky kids1', 'pump_portrait', [4, 5, 6, 7, 8, 9], "", 24, true);
+				animation.addByIndices('stop spooky kids1', 'pump_portrait', [6, 7, 8, 9], "", 24, false);
+				animation.addByIndices('standby spooky kids1', 'pump_portrait', [8, 9], "", 24, false);
+
 			case 'morgana':
-				frames = Paths.getSparrowAtlas('dialogue/portraits', 'strikin');
+				frames = Paths.getSparrowAtlas('dialogue/Morgana_Portraits', 'strikin');
 				//normal
-				animation.addByIndices('talk morgana0', 'morgana talk0', [0, 1, 2, 3, 4, 5], "", 24, true);
-				animation.addByIndices('stop morgana0', 'morgana talk0', [2, 3, 4, 5], "", 24, false);
-				animation.addByIndices('standby morgana0', 'morgana talk0', [4, 5], "", 24, false);
-				animation.addByIndices('blink morgana0', 'morgana talk0', [6, 7], "", 24, false);
+				animation.addByIndices('talk morgana0', 'morgana_normal', [4, 5, 6, 7, 8, 9], "", 24, true);
+				animation.addByIndices('stop morgana0', 'morgana_normal', [6, 7, 8, 9], "", 24, false);
+				animation.addByIndices('standby morgana0', 'morgana_normal', [8, 9], "", 24, false);
 				//happy
-				animation.addByIndices('talk morgana1', 'morgana talk1', [0, 1, 2, 3, 4, 5], "", 24, true);
-				animation.addByIndices('stop morgana1', 'morgana talk1', [2, 3, 4, 5], "", 24, false);
-				animation.addByIndices('standby morgana1', 'morgana talk1', [4, 5], "", 24, false);
+				animation.addByIndices('talk morgana1', 'morgana_happy', [4, 5, 6, 7, 8, 9], "", 24, true);
+				animation.addByIndices('stop morgana1', 'morgana_happy', [6, 7, 8, 9], "", 24, false);
+				animation.addByIndices('standby morgana1', 'morgana_happy', [8, 9], "", 24, false);
 				//mad
-				animation.addByIndices('talk morgana2', 'morgana talk2', [0, 1, 2, 3, 4, 5], "", 24, true);
-				animation.addByIndices('stop morgana2', 'morgana talk2', [2, 3, 4, 5], "", 24, false);
-				animation.addByIndices('standby morgana2', 'morgana talk2', [4, 5], "", 24, false);
-				animation.addByIndices('blink morgana2', 'morgana talk2', [6, 7], "", 24, false);
+				animation.addByIndices('talk morgana2', 'morgana_angry', [4, 5, 6, 7, 8, 9], "", 24, true);
+				animation.addByIndices('stop morgana2', 'morgana_angry', [6, 7, 8, 9], "", 24, false);
+				animation.addByIndices('standby morgana2', 'morgana_angry', [8, 9], "", 24, false);
 				//sad
-				animation.addByIndices('talk morgana3', 'morgana talk3', [0, 1, 2, 3, 4, 5], "", 24, true);
-				animation.addByIndices('stop morgana3', 'morgana talk3', [2, 3, 4, 5], "", 24, false);
-				animation.addByIndices('standby morgana3', 'morgana talk3', [4, 5], "", 24, false);
-				animation.addByIndices('blink morgana3', 'morgana talk3', [6, 7], "", 24, false);
+				animation.addByIndices('talk morgana3', 'morgana_worried', [4, 5, 6, 7, 8, 9], "", 24, true);
+				animation.addByIndices('stop morgana3', 'morgana_worried', [6, 7, 8, 9], "", 24, false);
+				animation.addByIndices('standby morgana3', 'morgana_worried', [8, 9], "", 24, false);
+
+				setGraphicSize(Std.int(width * 0.85));
 		}
 	}
 
@@ -93,6 +105,8 @@ class Portrait extends FlxSprite
 	{
 		var num:Int = 0;
 		var prefix:String = 'talk ';
+
+		canMove = true;
 
 		if (name == 'alt')
 			prefix = 'initial talk ';
@@ -118,14 +132,6 @@ class Portrait extends FlxSprite
 		setAnimNames();
 	}
 
-	public function getName():String {
-		return character;
-	}
-
-	public function getAnimSuffix():String {
-		return animSuffix;
-	}
-
 	override function update(elapsed:Float)
 	{
 		if (canMove)
@@ -142,7 +148,7 @@ class Portrait extends FlxSprite
 					animation.play('standby ' + animSuffix);
 				}
 
-				if (character == 'morgana')
+				if (character == 'no one blinks anymore lol, maybe soon')
 				{
 					if (animation.curAnim.name == 'standby ' + animSuffix && FlxG.random.bool(1))
 						animation.play('blink ' + animSuffix);

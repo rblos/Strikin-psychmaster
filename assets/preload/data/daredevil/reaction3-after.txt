@@ -1,0 +1,15 @@
+:audio:0.5:morgana/well
+:morgana:normal:Well...
+:audio:0.5:morgana/this is going to be tough
+:morgana:mad:I'd have you two sleep on the floor if the Joker were here. If you two end up doing anything funky tonight, I'll make you regret it.
+:audio:0.5:morgana/hey
+:morgana:normal:Hey—it’s that metaverse navigator again.
+:audio:0.5:morgana/eeyeaaaah
+:morgana:normal:Just go ahead and delete i-
+:audio:0.5:morgana/noangry
+:morgana:mad:Take your finger off of there!
+:audio:0.5:morgana/come on
+:morgana:normal:Uh oh.
+:audio:0.5:navigation
+:metaverse:Beginning navigation.
+:transition:bf:

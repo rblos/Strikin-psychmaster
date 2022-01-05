@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="go-persona.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="strike0000" x="0" y="0" width="2160" height="583"/>
+	<SubTexture name="strike0001" x="2170" y="0" width="2160" height="583"/>
+	<SubTexture name="strike0002" x="4340" y="0" width="2160" height="583"/>
+	<SubTexture name="strike0003" x="0" y="593" width="2160" height="583"/>
+	<SubTexture name="strike0004" x="2170" y="593" width="2160" height="583"/>
+	<SubTexture name="strike0005" x="4340" y="593" width="2160" height="583"/>
+	<SubTexture name="strike0006" x="0" y="1186" width="2160" height="583"/>
+	<SubTexture name="strike0007" x="2170" y="1186" width="2160" height="583"/>
+	<SubTexture name="strike0008" x="4340" y="1186" width="2160" height="583"/>
+	<SubTexture name="strike0009" x="0" y="1779" width="2160" height="583"/>
+	<SubTexture name="strike0010" x="2170" y="1779" width="2160" height="583"/>
+	<SubTexture name="strike0011" x="4340" y="1779" width="2160" height="583"/>
+	<SubTexture name="strike0012" x="0" y="2372" width="2160" height="583"/>
+	<SubTexture name="strike0013" x="2170" y="2372" width="2160" height="583"/>
+</TextureAtlas>

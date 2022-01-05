@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="spooky kids portraits.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="both_portraits0000" x="0" y="0" width="589" height="589"/>
+	<SubTexture name="both_portraits0001" x="0" y="0" width="589" height="589"/>
+	<SubTexture name="both_portraits0002" x="589" y="0" width="589" height="589"/>
+	<SubTexture name="both_portraits0003" x="589" y="0" width="589" height="589"/>
+	<SubTexture name="both_portraits0004" x="1178" y="0" width="589" height="589"/>
+	<SubTexture name="both_portraits0005" x="1178" y="0" width="589" height="589"/>
+	<SubTexture name="both_portraits0006" x="589" y="0" width="589" height="589"/>
+	<SubTexture name="both_portraits0007" x="589" y="0" width="589" height="589"/>
+	<SubTexture name="both_portraits0008" x="0" y="0" width="589" height="589"/>
+	<SubTexture name="both_portraits0009" x="0" y="0" width="589" height="589"/>
+	<SubTexture name="both_portraits0010" x="0" y="0" width="589" height="589"/>
+	<SubTexture name="both_portraits0011" x="0" y="0" width="589" height="589"/>
+	<SubTexture name="both_portraits0012" x="0" y="0" width="589" height="589"/>
+	<SubTexture name="both_portraits0013" x="0" y="0" width="589" height="589"/>
+	<SubTexture name="pump_portrait0000" x="0" y="0" width="589" height="589"/>
+	<SubTexture name="pump_portrait0001" x="0" y="0" width="589" height="589"/>
+	<SubTexture name="pump_portrait0002" x="0" y="589" width="589" height="589"/>
+	<SubTexture name="pump_portrait0003" x="0" y="589" width="589" height="589"/>
+	<SubTexture name="pump_portrait0004" x="589" y="589" width="589" height="589"/>
+	<SubTexture name="pump_portrait0005" x="589" y="589" width="589" height="589"/>
+	<SubTexture name="pump_portrait0006" x="0" y="589" width="589" height="589"/>
+	<SubTexture name="pump_portrait0007" x="0" y="589" width="589" height="589"/>
+	<SubTexture name="pump_portrait0008" x="0" y="0" width="589" height="589"/>
+	<SubTexture name="pump_portrait0009" x="0" y="0" width="589" height="589"/>
+	<SubTexture name="pump_portrait0010" x="0" y="0" width="589" height="589"/>
+	<SubTexture name="pump_portrait0011" x="0" y="0" width="589" height="589"/>
+	<SubTexture name="pump_portrait0012" x="0" y="0" width="589" height="589"/>
+	<SubTexture name="pump_portrait0013" x="0" y="0" width="589" height="589"/>
+	<SubTexture name="skid_portraits0000" x="0" y="0" width="589" height="589"/>
+	<SubTexture name="skid_portraits0001" x="0" y="0" width="589" height="589"/>
+	<SubTexture name="skid_portraits0002" x="1178" y="589" width="589" height="589"/>
+	<SubTexture name="skid_portraits0003" x="1178" y="589" width="589" height="589"/>
+	<SubTexture name="skid_portraits0004" x="0" y="1178" width="589" height="589"/>
+	<SubTexture name="skid_portraits0005" x="0" y="1178" width="589" height="589"/>
+	<SubTexture name="skid_portraits0006" x="1178" y="589" width="589" height="589"/>
+	<SubTexture name="skid_portraits0007" x="1178" y="589" width="589" height="589"/>
+	<SubTexture name="skid_portraits0008" x="0" y="0" width="589" height="589"/>
+	<SubTexture name="skid_portraits0009" x="0" y="0" width="589" height="589"/>
+	<SubTexture name="skid_portraits0010" x="0" y="0" width="589" height="589"/>
+	<SubTexture name="skid_portraits0011" x="0" y="0" width="589" height="589"/>
+	<SubTexture name="skid_portraits0012" x="0" y="0" width="589" height="589"/>
+	<SubTexture name="skid_portraits0013" x="0" y="0" width="589" height="589"/>
+</TextureAtlas>

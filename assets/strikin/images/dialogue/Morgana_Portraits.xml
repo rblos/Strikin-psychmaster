@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Morgana Portraits.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="morgana_angry0000" x="0" y="0" width="617" height="559"/>
+	<SubTexture name="morgana_angry0001" x="0" y="0" width="617" height="559"/>
+	<SubTexture name="morgana_angry0002" x="617" y="0" width="617" height="559"/>
+	<SubTexture name="morgana_angry0003" x="617" y="0" width="617" height="559"/>
+	<SubTexture name="morgana_angry0004" x="1234" y="0" width="617" height="559"/>
+	<SubTexture name="morgana_angry0005" x="1234" y="0" width="617" height="559"/>
+	<SubTexture name="morgana_angry0006" x="617" y="0" width="617" height="559"/>
+	<SubTexture name="morgana_angry0007" x="617" y="0" width="617" height="559"/>
+	<SubTexture name="morgana_angry0008" x="0" y="0" width="617" height="559"/>
+	<SubTexture name="morgana_angry0009" x="0" y="0" width="617" height="559"/>
+	<SubTexture name="morgana_happy0000" x="1851" y="0" width="617" height="559"/>
+	<SubTexture name="morgana_happy0001" x="1851" y="0" width="617" height="559"/>
+	<SubTexture name="morgana_happy0002" x="2468" y="0" width="617" height="559"/>
+	<SubTexture name="morgana_happy0003" x="2468" y="0" width="617" height="559"/>
+	<SubTexture name="morgana_happy0004" x="3085" y="0" width="617" height="559"/>
+	<SubTexture name="morgana_happy0005" x="3085" y="0" width="617" height="559"/>
+	<SubTexture name="morgana_happy0006" x="2468" y="0" width="617" height="559"/>
+	<SubTexture name="morgana_happy0007" x="2468" y="0" width="617" height="559"/>
+	<SubTexture name="morgana_happy0008" x="1851" y="0" width="617" height="559"/>
+	<SubTexture name="morgana_happy0009" x="1851" y="0" width="617" height="559"/>
+	<SubTexture name="morgana_normal0000" x="0" y="559" width="617" height="559"/>
+	<SubTexture name="morgana_normal0001" x="0" y="559" width="617" height="559"/>
+	<SubTexture name="morgana_normal0002" x="617" y="559" width="617" height="559"/>
+	<SubTexture name="morgana_normal0003" x="617" y="559" width="617" height="559"/>
+	<SubTexture name="morgana_normal0004" x="1234" y="559" width="617" height="559"/>
+	<SubTexture name="morgana_normal0005" x="1234" y="559" width="617" height="559"/>
+	<SubTexture name="morgana_normal0006" x="1851" y="559" width="617" height="559"/>
+	<SubTexture name="morgana_normal0007" x="1851" y="559" width="617" height="559"/>
+	<SubTexture name="morgana_normal0008" x="2468" y="559" width="617" height="559"/>
+	<SubTexture name="morgana_normal0009" x="2468" y="559" width="617" height="559"/>
+	<SubTexture name="morgana_worried0000" x="3085" y="559" width="617" height="559"/>
+	<SubTexture name="morgana_worried0001" x="3085" y="559" width="617" height="559"/>
+	<SubTexture name="morgana_worried0002" x="0" y="1118" width="617" height="559"/>
+	<SubTexture name="morgana_worried0003" x="0" y="1118" width="617" height="559"/>
+	<SubTexture name="morgana_worried0004" x="617" y="1118" width="617" height="559"/>
+	<SubTexture name="morgana_worried0005" x="617" y="1118" width="617" height="559"/>
+	<SubTexture name="morgana_worried0006" x="0" y="1118" width="617" height="559"/>
+	<SubTexture name="morgana_worried0007" x="0" y="1118" width="617" height="559"/>
+	<SubTexture name="morgana_worried0008" x="3085" y="559" width="617" height="559"/>
+	<SubTexture name="morgana_worried0009" x="3085" y="559" width="617" height="559"/>
+</TextureAtlas>

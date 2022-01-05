@@ -98,6 +98,24 @@ class Note extends FlxSprite
 					hitCausesMiss = true;
 				case 'No Animation':
 					noAnimation = true;
+				case 'Makarakarn Note':
+					reloadNote('MAKARAKARN');
+					noteSplashTexture = 'MakarakarnSplash';
+					colorSwap.hue = 0;
+					colorSwap.saturation = 0;
+					colorSwap.brightness = 0;
+					missHealth = 1;
+					switch (noteData % 4)
+				{
+					case 0:
+						offsetX -= 20;
+					case 1:
+						offsetX -= 25;
+					case 2:
+						offsetX -= 15;
+					case 3:
+						offsetX += 5;
+				}
 			}
 			noteType = value;
 		}

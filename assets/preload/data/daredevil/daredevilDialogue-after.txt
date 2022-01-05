@@ -1,0 +1,11 @@
+:audio:0.5:morgana/mmm
+:morgana:normal:Another song, another person gone...or two. Where do they keep going? Why are you guys singing anyway?
+:audio:0.5:morgana/that means
+:morgana:happy:You know, I have never met so many people that have understood what I could say before. I mean of course, you have the metaverse navigator thing going on...you think maybe they have it too?
+:audio:0.5:morgana/lets head back thunder
+:morgana:normal:Looks like this weather is getting bad, we should probably head inside.
+:transition:black:
+:bg:room
+:transition:remove:4
+:audio:0.5:morgana/hey2
+:morgana:normal:Are you two tired?

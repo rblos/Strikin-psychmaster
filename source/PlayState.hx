@@ -359,7 +359,7 @@ class PlayState extends MusicBeatState
 					curStage = 'leblanc';
 				case 'daredevil':
 					curStage = 'leblancNight';
-				case 'awakening' | 'will-power' | 'what-you-wish-for' | 'blooming-villain':
+				case 'what-you-wish-for':
 					curStage = 'metaverse';
 				default:
 					curStage = 'stage';
@@ -712,8 +712,8 @@ class PlayState extends MusicBeatState
 					add(rain);
 				}
 
-				//CoolUtil.precacheSound('thunder_1');
-				//CoolUtil.precacheSound('thunder_2');
+				CoolUtil.precacheSound('thunder_1');
+				CoolUtil.precacheSound('thunder_2');
 				
 			case 'metaverse':
 				isPersonaStage = true;

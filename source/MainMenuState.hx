@@ -224,7 +224,7 @@ class MainMenuState extends MusicBeatState
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
-		var versionShit:FlxText = new FlxText(FlxG.width - 275, FlxG.height - 24, 0, "Friday Night Strikin' v" + "2.0.0"/* Application.current.meta.get('version') */, 12);
+		var versionShit:FlxText = new FlxText(FlxG.width - 275, FlxG.height - 24, 0, "Friday Night Strikin' v" + Application.current.meta.get('version'), 12);
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
